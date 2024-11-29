@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Design and Development 1</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Web Design and Development</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About This Website</h2>
+    <p>This site demonstrates the principles of web design and development covered in our class, including HTML structure, CSS styling, and JavaScript interactivity.</p>
+    <img src="about-image.jpg" alt="About Web Design" class="responsive-img">
+  </section>
+
+  <section id="features">
+    <h2>Key Features</h2>
+    <ul>
+      <li>Responsive Design</li>
+      <li>Dynamic Interactivity</li>
+      <li>Simple Navigation</li>
+    </ul>
+    <button id="feature-btn">Click Me for a Surprise</button>
+    <p id="dynamic-message"></p>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="image1.jpg" alt="Gallery Image 1">
+      <img src="image2.jpg" alt="Gallery Image 2">
+      <img src="image3.jpg" alt="Gallery Image 3">
+    </div>
+    <h3>Watch Our Video</h3>
+    <video controls class="responsive-video">
+      <source src="video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="form-message"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Web Design and Development 1. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
